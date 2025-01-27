@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.navbar{
+    display: flex
+}
+.navbar >li{
+    list-style: none;
+    margin: 20px;
+}
+.navbar>img{
+    margin-left: 250px;
+}
+.navbar>button{
+    margin-top: 10px;
+    margin-left: 600px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: rgb(33, 33, 33);
+    border-radius: 5px;
+}
+.main-section{
+    height: 90vh;
+    background-image: linear-gradient( rgb(155, 235, 252),white);
+    background-repeat: no-repeat;
+}
+.hero-section{
+    display: flex;
+
+}
+.text{
+    margin: 50px;
+}
+.hero-section>input{
+    margin: 50px ;
+    margin-left: 250px;
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 7px;
+    border-color: aliceblue;
+}
+.course-section{
+    display: flex;
+}
+.main>p{
+    /* margin: 10PX auto; */
+    margin-left: 50px;   
+}
+.main>button{
+    padding: 5px 0px;
+    width: 180PX;
+    margin: 20PX auto;
+    margin-left: 50px;
+}
+.course-section >li{
+    list-style: none;
+    margin: 30px;
+    text-underline-position: below;
+}
+.course-type{
+display: flex;
+}
+.box-one{
+    margin: 40px;
+    /* padding: 5px; */
+    width: 300px;
+    height: 400px;
+    box-shadow: 0.1px 0.1px 1px;
+    /* background-color: rebeccapurple; */
+   
+}
+.box-one>p{
+    padding: 3px;
+}
+.box-one>button{
+    width: 280px;
+    height: 40px;
+    margin: 10px;
+}
